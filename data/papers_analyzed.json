@@ -1,0 +1,270 @@
+[
+  {
+    "id": "2303.08774",
+    "title": "GPT-4 Technical Report",
+    "abstract": "We report the development of GPT-4, a large multimodal model which can accept image and text inputs and produce text outputs. While less capable than humans in many real-world scenarios, GPT-4 exhibits human-level performance on various professional and academic benchmarks. We discuss the challenges of predicting model capabilities before training and present scaling laws that help forecast performance.",
+    "authors": [
+      "OpenAI"
+    ],
+    "url": "https://arxiv.org/abs/2303.08774",
+    "published": "2023",
+    "analysis": {
+      "key_claims": [
+        "GPT-4 exhibits human-level performance on various professional and academic benchmarks",
+        "GPT-4 can accept image and text inputs and produce text outputs",
+        "GPT-4 is less capable than humans in many real-world scenarios"
+      ],
+      "methodology": "The development of GPT-4 is based on scaling laws that help forecast performance",
+      "limitations": "GPT-4 is less capable than humans in many real-world scenarios",
+      "concepts": [
+        "multimodal model",
+        "scaling laws",
+        "human-level performance"
+      ],
+      "contribution": "This paper contributes to the development of large multimodal models by presenting the capabilities and limitations of GPT-4"
+    }
+  },
+  {
+    "id": "2302.13971",
+    "title": "LLaMA: Open and Efficient Foundation Language Models",
+    "abstract": "We introduce LLaMA, a collection of foundation language models ranging from 7B to 65B parameters. We train our models on trillions of tokens using publicly available datasets exclusively. LLaMA-13B outperforms GPT-3 on most benchmarks despite being 10x smaller. These models are released publicly to help democratize access to large language models.",
+    "authors": [
+      "Touvron, Hugo",
+      "Lavril, Thibaut",
+      "Izacard, Gautier"
+    ],
+    "url": "https://arxiv.org/abs/2302.13971",
+    "published": "2023",
+    "analysis": {
+      "key_claims": [
+        "LLaMA models outperform GPT-3 on most benchmarks",
+        "LLaMA-13B is 10x smaller than GPT-3",
+        "LLaMA models are trained on trillions of tokens"
+      ],
+      "methodology": "The authors train their models on publicly available datasets exclusively, ranging from 7B to 65B parameters.",
+      "limitations": "The abstract does not explicitly mention any limitations or gaps in the research.",
+      "concepts": [
+        "foundation language models",
+        "large language models",
+        "democratization of access"
+      ],
+      "contribution": "This paper contributes to the field by introducing publicly available, efficient, and open foundation language models that can be used by others."
+    }
+  },
+  {
+    "id": "2307.09288",
+    "title": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+    "abstract": "We develop and release Llama 2, a collection of pretrained and fine-tuned large language models ranging from 7B to 70B parameters. Our fine-tuned models called Llama 2-Chat are optimized for dialogue use cases. We find that Llama 2-Chat models outperform open-source chat models on most benchmarks. We provide a detailed description of our approach to fine-tuning and safety improvements.",
+    "authors": [
+      "Touvron, Hugo",
+      "Martin, Louis",
+      "Stone, Kevin"
+    ],
+    "url": "https://arxiv.org/abs/2307.09288",
+    "published": "2023",
+    "analysis": {
+      "key_claims": [
+        "Llama 2-Chat models outperform open-source chat models on most benchmarks",
+        "Llama 2 models range from 7B to 70B parameters",
+        "Fine-tuned models are optimized for dialogue use cases"
+      ],
+      "methodology": "The approach involves fine-tuning and safety improvements for large language models",
+      "limitations": "The abstract does not explicitly mention any limitations or gaps in the research",
+      "concepts": [
+        "large language models",
+        "fine-tuning",
+        "dialogue use cases"
+      ],
+      "contribution": "This paper contributes to the development and release of pretrained and fine-tuned large language models for improved dialogue use cases"
+    }
+  },
+  {
+    "id": "2005.14165",
+    "title": "Language Models are Few-Shot Learners",
+    "abstract": "We demonstrate that scaling language models greatly improves task-agnostic, few-shot performance. GPT-3 with 175B parameters achieves strong performance on many NLP tasks without any gradient updates or fine-tuning. We show that in-context learning with just a few examples can match or exceed fine-tuned models, raising questions about the role of task-specific datasets.",
+    "authors": [
+      "Brown, Tom",
+      "Mann, Benjamin",
+      "Ryder, Nick"
+    ],
+    "url": "https://arxiv.org/abs/2005.14165",
+    "published": "2020",
+    "analysis": {
+      "key_claims": [
+        "Language models with large parameters achieve strong performance on many NLP tasks without fine-tuning",
+        "In-context learning can match or exceed fine-tuned models",
+        "Task-specific datasets may not be necessary for few-shot learning"
+      ],
+      "methodology": "The researchers used GPT-3 with 175B parameters to demonstrate task-agnostic, few-shot performance on various NLP tasks",
+      "limitations": "The study raises questions about the role of task-specific datasets but does not thoroughly investigate their limitations or potential gaps",
+      "concepts": [
+        "few-shot learning",
+        "in-context learning",
+        "language models"
+      ],
+      "contribution": "This paper contributes to the understanding of language models' capabilities in few-shot learning and challenges traditional approaches to NLP task-specific datasets"
+    }
+  },
+  {
+    "id": "2310.06825",
+    "title": "Mistral 7B",
+    "abstract": "We introduce Mistral 7B, a 7-billion-parameter language model that outperforms Llama 2 13B on all evaluated benchmarks. Mistral 7B uses grouped-query attention for faster inference and sliding window attention to handle sequences of arbitrary length. We also release Mistral 7B-Instruct, which outperforms Llama 2 13B-chat on human evaluations.",
+    "authors": [
+      "Jiang, Albert Q.",
+      "Sablayrolles, Alexandre",
+      "Mensch, Arthur"
+    ],
+    "url": "https://arxiv.org/abs/2310.06825",
+    "published": "2023",
+    "analysis": {
+      "key_claims": [
+        "Mistral 7B outperforms Llama 2 13B on all evaluated benchmarks",
+        "Mistral 7B uses grouped-query attention for faster inference",
+        "Mistral 7B-Instruct outperforms Llama 2 13B-chat on human evaluations"
+      ],
+      "methodology": "The authors used grouped-query attention and sliding window attention to develop the Mistral 7B language model",
+      "limitations": "The abstract does not mention any specific limitations or gaps in the research",
+      "concepts": [
+        "language model",
+        "grouped-query attention",
+        "sliding window attention"
+      ],
+      "contribution": "This paper contributes a new state-of-the-art language model, Mistral 7B, that outperforms existing models in terms of performance and efficiency"
+    }
+  },
+  {
+    "id": "2201.11903",
+    "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+    "abstract": "We explore how chain-of-thought prompting improves the ability of large language models to perform complex reasoning. By providing a few chain-of-thought demonstrations as exemplars in prompting, we show that language models can generate a series of intermediate reasoning steps that significantly improves performance on arithmetic, commonsense, and symbolic reasoning tasks.",
+    "authors": [
+      "Wei, Jason",
+      "Wang, Xuezhi",
+      "Schuurmans, Dale"
+    ],
+    "url": "https://arxiv.org/abs/2201.11903",
+    "published": "2022",
+    "analysis": {
+      "key_claims": [
+        "large language models can perform complex reasoning with chain-of-thought prompting",
+        "chain-of-thought prompting improves performance on arithmetic tasks",
+        "chain-of-thought prompting improves performance on commonsense and symbolic reasoning tasks"
+      ],
+      "methodology": "The authors use chain-of-thought demonstrations as exemplars in prompting to elicit reasoning in large language models",
+      "limitations": "The paper does not discuss the limitations or potential biases of using chain-of-thought prompting in large language models",
+      "concepts": [
+        "chain-of-thought prompting",
+        "large language models",
+        "complex reasoning"
+      ],
+      "contribution": "This paper contributes to the understanding of how chain-of-thought prompting can improve the ability of large language models to perform complex reasoning tasks"
+    }
+  },
+  {
+    "id": "2203.02155",
+    "title": "Training language models to follow instructions with human feedback",
+    "abstract": "Starting from GPT-3, we fine-tune language models to follow instructions using reinforcement learning from human feedback. Our models, InstructGPT, are better at following user intent than GPT-3 despite being much smaller. Human evaluators prefer InstructGPT outputs over GPT-3 outputs even though InstructGPT has 100x fewer parameters. This work raises important questions about alignment between model outputs and human intent.",
+    "authors": [
+      "Ouyang, Long",
+      "Wu, Jeff",
+      "Jiang, Xu"
+    ],
+    "url": "https://arxiv.org/abs/2203.02155",
+    "published": "2022",
+    "analysis": {
+      "key_claims": [
+        "InstructGPT models are better at following user intent than GPT-3",
+        "InstructGPT models are preferred by human evaluators despite having 100x fewer parameters",
+        "InstructGPT raises questions about alignment between model outputs and human intent"
+      ],
+      "methodology": "The researchers fine-tune language models using reinforcement learning from human feedback, starting from GPT-3",
+      "limitations": "The work does not explicitly discuss the limitations of the InstructGPT models or the potential biases in human feedback",
+      "concepts": [
+        "language models",
+        "reinforcement learning",
+        "human feedback"
+      ],
+      "contribution": "This paper contributes to the development of more aligned and effective language models by demonstrating the potential of fine-tuning with human feedback"
+    }
+  },
+  {
+    "id": "2108.07258",
+    "title": "Evaluating Large Language Models Trained on Code",
+    "abstract": "We introduce Codex, a GPT language model fine-tuned on publicly available code from GitHub. Codex solves 28.8% of the HumanEval problems. We find that repeated sampling from the model is a surprisingly effective strategy for producing working solutions. We discuss the potential broader impacts of deploying powerful code generation technologies.",
+    "authors": [
+      "Chen, Mark",
+      "Tworek, Jerry",
+      "Jun, Heewoo"
+    ],
+    "url": "https://arxiv.org/abs/2108.07258",
+    "published": "2021",
+    "analysis": {
+      "key_claims": [
+        "Codex solves 28.8% of the HumanEval problems",
+        "Repeated sampling from the model is effective for producing working solutions",
+        "Powerful code generation technologies have broader impacts"
+      ],
+      "methodology": "The researchers fine-tuned a GPT language model on publicly available code from GitHub to create Codex",
+      "limitations": "The paper does not discuss the limitations of the Codex model or the potential biases in the GitHub code dataset",
+      "concepts": [
+        "Large Language Models",
+        "Code Generation",
+        "GPT"
+      ],
+      "contribution": "This paper contributes to the development of code generation technologies by introducing Codex, a fine-tuned GPT language model that can solve a significant portion of HumanEval problems"
+    }
+  },
+  {
+    "id": "2302.07842",
+    "title": "Augmented Language Models: a Survey",
+    "abstract": "We survey works that augment language models with tools, memory, and reasoning capabilities. Augmented language models can use external tools like search engines and calculators, query memory stores, and decompose tasks into reasoning steps. We argue that augmentation is a promising direction for overcoming fundamental limitations of language models such as hallucination and lack of up-to-date knowledge.",
+    "authors": [
+      "Mialon, Grégoire",
+      "Dessì, Roberto",
+      "Lomeli, Maria"
+    ],
+    "url": "https://arxiv.org/abs/2302.07842",
+    "published": "2023",
+    "analysis": {
+      "key_claims": [
+        "Augmented language models can overcome hallucination",
+        "Augmented language models can overcome lack of up-to-date knowledge",
+        "Augmentation is a promising direction for language models"
+      ],
+      "methodology": "The authors survey existing works on augmenting language models with tools, memory, and reasoning capabilities.",
+      "limitations": "Fundamental limitations of language models include hallucination and lack of up-to-date knowledge.",
+      "concepts": [
+        "language models",
+        "augmentation",
+        "reasoning capabilities"
+      ],
+      "contribution": "This paper contributes a survey of works on augmented language models, highlighting their potential to overcome fundamental limitations."
+    }
+  },
+  {
+    "id": "2304.15004",
+    "title": "Are Emergent Abilities of Large Language Models a Mirage?",
+    "abstract": "Recent work claims that large language models display emergent abilities that appear suddenly at certain scale thresholds. We present an alternative explanation: emergent abilities are a product of researchers choice of metrics. When we use metrics that scale smoothly, the emergent abilities disappear. This challenges the narrative that LLMs undergo phase transitions and has implications for how we evaluate and predict model capabilities.",
+    "authors": [
+      "Schaeffer, Rylan",
+      "Miranda, Brando",
+      "Koyejo, Sanmi"
+    ],
+    "url": "https://arxiv.org/abs/2304.15004",
+    "published": "2023",
+    "analysis": {
+      "key_claims": [
+        "emergent abilities of large language models may be a product of researcher choice of metrics",
+        "emergent abilities disappear when using metrics that scale smoothly",
+        "large language models may not undergo phase transitions"
+      ],
+      "methodology": "The authors use alternative metrics that scale smoothly to test the existence of emergent abilities in large language models",
+      "limitations": "The study may be limited by its focus on specific metrics and large language models, which may not be generalizable to other models or contexts",
+      "concepts": [
+        "emergent abilities",
+        "large language models",
+        "phase transitions"
+      ],
+      "contribution": "This paper contributes to the understanding of large language models by challenging the narrative of emergent abilities and phase transitions, and highlighting the importance of metric choice in evaluating model capabilities"
+    }
+  }
+]

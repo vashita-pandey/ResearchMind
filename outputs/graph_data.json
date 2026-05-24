@@ -1,0 +1,245 @@
+{
+  "nodes": [
+    {
+      "id": "2303.08774",
+      "title": "GPT-4 Technical Report",
+      "year": "2023",
+      "authors": "OpenAI",
+      "contribution": "This paper contributes to the development of large multimodal models by presenting the capabilities and limitations of GPT-4",
+      "concepts": "multimodal model, scaling laws, human-level performance",
+      "node_type": "paper"
+    },
+    {
+      "id": "2302.13971",
+      "title": "LLaMA: Open and Efficient Foundation Language Models",
+      "year": "2023",
+      "authors": "Touvron, Hugo, Lavril, Thibaut, Izacard, Gautier",
+      "contribution": "This paper contributes to the field by introducing publicly available, efficient, and open foundation language models that can be used by others.",
+      "concepts": "foundation language models, large language models, democratization of access",
+      "node_type": "paper"
+    },
+    {
+      "id": "2307.09288",
+      "title": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+      "year": "2023",
+      "authors": "Touvron, Hugo, Martin, Louis, Stone, Kevin",
+      "contribution": "This paper contributes to the development and release of pretrained and fine-tuned large language models for improved dialogue use cases",
+      "concepts": "large language models, fine-tuning, dialogue use cases",
+      "node_type": "paper"
+    },
+    {
+      "id": "2005.14165",
+      "title": "Language Models are Few-Shot Learners",
+      "year": "2020",
+      "authors": "Brown, Tom, Mann, Benjamin, Ryder, Nick",
+      "contribution": "This paper contributes to the understanding of language models' capabilities in few-shot learning and challenges traditional approaches to NLP task-specific datasets",
+      "concepts": "few-shot learning, in-context learning, language models",
+      "node_type": "paper"
+    },
+    {
+      "id": "2310.06825",
+      "title": "Mistral 7B",
+      "year": "2023",
+      "authors": "Jiang, Albert Q., Sablayrolles, Alexandre, Mensch, Arthur",
+      "contribution": "This paper contributes a new state-of-the-art language model, Mistral 7B, that outperforms existing models in terms of performance and efficiency",
+      "concepts": "language model, grouped-query attention, sliding window attention",
+      "node_type": "paper"
+    },
+    {
+      "id": "2201.11903",
+      "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+      "year": "2022",
+      "authors": "Wei, Jason, Wang, Xuezhi, Schuurmans, Dale",
+      "contribution": "This paper contributes to the understanding of how chain-of-thought prompting can improve the ability of large language models to perform complex reasoning tasks",
+      "concepts": "chain-of-thought prompting, large language models, complex reasoning",
+      "node_type": "paper"
+    },
+    {
+      "id": "2203.02155",
+      "title": "Training language models to follow instructions with human feedback",
+      "year": "2022",
+      "authors": "Ouyang, Long, Wu, Jeff, Jiang, Xu",
+      "contribution": "This paper contributes to the development of more aligned and effective language models by demonstrating the potential of fine-tuning with human feedback",
+      "concepts": "language models, reinforcement learning, human feedback",
+      "node_type": "paper"
+    },
+    {
+      "id": "2108.07258",
+      "title": "Evaluating Large Language Models Trained on Code",
+      "year": "2021",
+      "authors": "Chen, Mark, Tworek, Jerry, Jun, Heewoo",
+      "contribution": "This paper contributes to the development of code generation technologies by introducing Codex, a fine-tuned GPT language model that can solve a significant portion of HumanEval problems",
+      "concepts": "Large Language Models, Code Generation, GPT",
+      "node_type": "paper"
+    },
+    {
+      "id": "2302.07842",
+      "title": "Augmented Language Models: a Survey",
+      "year": "2023",
+      "authors": "Mialon, Gr\u00e9goire, Dess\u00ec, Roberto, Lomeli, Maria",
+      "contribution": "This paper contributes a survey of works on augmented language models, highlighting their potential to overcome fundamental limitations.",
+      "concepts": "language models, augmentation, reasoning capabilities",
+      "node_type": "paper"
+    },
+    {
+      "id": "2304.15004",
+      "title": "Are Emergent Abilities of Large Language Models a Mirage?",
+      "year": "2023",
+      "authors": "Schaeffer, Rylan, Miranda, Brando, Koyejo, Sanmi",
+      "contribution": "This paper contributes to the understanding of large language models by challenging the narrative of emergent abilities and phase transitions, and highlighting the importance of metric choice in evaluating model capabilities",
+      "concepts": "emergent abilities, large language models, phase transitions",
+      "node_type": "paper"
+    },
+    {
+      "id": "large language models",
+      "node_type": "concept",
+      "title": "large language models"
+    },
+    {
+      "id": "language models",
+      "node_type": "concept",
+      "title": "language models"
+    }
+  ],
+  "edges": [
+    {
+      "source": "2303.08774",
+      "target": "2005.14165",
+      "edge_type": "similar",
+      "weight": 0.571,
+      "similarity": 0.571
+    },
+    {
+      "source": "2303.08774",
+      "target": "2203.02155",
+      "edge_type": "similar",
+      "weight": 0.515,
+      "similarity": 0.515
+    },
+    {
+      "source": "2302.13971",
+      "target": "large language models",
+      "edge_type": "has_concept",
+      "weight": 0.5
+    },
+    {
+      "source": "2302.13971",
+      "target": "2307.09288",
+      "edge_type": "similar",
+      "weight": 0.626,
+      "similarity": 0.626
+    },
+    {
+      "source": "2302.13971",
+      "target": "2005.14165",
+      "edge_type": "similar",
+      "weight": 0.515,
+      "similarity": 0.515
+    },
+    {
+      "source": "2302.13971",
+      "target": "2310.06825",
+      "edge_type": "similar",
+      "weight": 0.571,
+      "similarity": 0.571
+    },
+    {
+      "source": "2302.13971",
+      "target": "2108.07258",
+      "edge_type": "similar",
+      "weight": 0.677,
+      "similarity": 0.677
+    },
+    {
+      "source": "2307.09288",
+      "target": "large language models",
+      "edge_type": "has_concept",
+      "weight": 0.5
+    },
+    {
+      "source": "2307.09288",
+      "target": "2310.06825",
+      "edge_type": "similar",
+      "weight": 0.727,
+      "similarity": 0.727
+    },
+    {
+      "source": "2005.14165",
+      "target": "language models",
+      "edge_type": "has_concept",
+      "weight": 0.5
+    },
+    {
+      "source": "2005.14165",
+      "target": "2310.06825",
+      "edge_type": "similar",
+      "weight": 0.514,
+      "similarity": 0.514
+    },
+    {
+      "source": "2005.14165",
+      "target": "2203.02155",
+      "edge_type": "similar",
+      "weight": 0.55,
+      "similarity": 0.55
+    },
+    {
+      "source": "2310.06825",
+      "target": "2302.07842",
+      "edge_type": "similar",
+      "weight": 0.526,
+      "similarity": 0.526
+    },
+    {
+      "source": "2201.11903",
+      "target": "large language models",
+      "edge_type": "has_concept",
+      "weight": 0.5
+    },
+    {
+      "source": "2201.11903",
+      "target": "2302.07842",
+      "edge_type": "similar",
+      "weight": 0.614,
+      "similarity": 0.614
+    },
+    {
+      "source": "2203.02155",
+      "target": "language models",
+      "edge_type": "has_concept",
+      "weight": 0.5
+    },
+    {
+      "source": "2203.02155",
+      "target": "2108.07258",
+      "edge_type": "similar",
+      "weight": 0.565,
+      "similarity": 0.565
+    },
+    {
+      "source": "2203.02155",
+      "target": "2302.07842",
+      "edge_type": "similar",
+      "weight": 0.51,
+      "similarity": 0.51
+    },
+    {
+      "source": "2108.07258",
+      "target": "large language models",
+      "edge_type": "has_concept",
+      "weight": 0.5
+    },
+    {
+      "source": "2302.07842",
+      "target": "language models",
+      "edge_type": "has_concept",
+      "weight": 0.5
+    },
+    {
+      "source": "2304.15004",
+      "target": "large language models",
+      "edge_type": "has_concept",
+      "weight": 0.5
+    }
+  ]
+}

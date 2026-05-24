@@ -1,0 +1,82 @@
+[
+  {
+    "id": "2303.08774",
+    "title": "GPT-4 Technical Report",
+    "abstract": "We report the development of GPT-4, a large multimodal model which can accept image and text inputs and produce text outputs. While less capable than humans in many real-world scenarios, GPT-4 exhibits human-level performance on various professional and academic benchmarks. We discuss the challenges of predicting model capabilities before training and present scaling laws that help forecast performance.",
+    "authors": ["OpenAI"],
+    "url": "https://arxiv.org/abs/2303.08774",
+    "published": "2023"
+  },
+  {
+    "id": "2302.13971",
+    "title": "LLaMA: Open and Efficient Foundation Language Models",
+    "abstract": "We introduce LLaMA, a collection of foundation language models ranging from 7B to 65B parameters. We train our models on trillions of tokens using publicly available datasets exclusively. LLaMA-13B outperforms GPT-3 on most benchmarks despite being 10x smaller. These models are released publicly to help democratize access to large language models.",
+    "authors": ["Touvron, Hugo", "Lavril, Thibaut", "Izacard, Gautier"],
+    "url": "https://arxiv.org/abs/2302.13971",
+    "published": "2023"
+  },
+  {
+    "id": "2307.09288",
+    "title": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+    "abstract": "We develop and release Llama 2, a collection of pretrained and fine-tuned large language models ranging from 7B to 70B parameters. Our fine-tuned models called Llama 2-Chat are optimized for dialogue use cases. We find that Llama 2-Chat models outperform open-source chat models on most benchmarks. We provide a detailed description of our approach to fine-tuning and safety improvements.",
+    "authors": ["Touvron, Hugo", "Martin, Louis", "Stone, Kevin"],
+    "url": "https://arxiv.org/abs/2307.09288",
+    "published": "2023"
+  },
+  {
+    "id": "2005.14165",
+    "title": "Language Models are Few-Shot Learners",
+    "abstract": "We demonstrate that scaling language models greatly improves task-agnostic, few-shot performance. GPT-3 with 175B parameters achieves strong performance on many NLP tasks without any gradient updates or fine-tuning. We show that in-context learning with just a few examples can match or exceed fine-tuned models, raising questions about the role of task-specific datasets.",
+    "authors": ["Brown, Tom", "Mann, Benjamin", "Ryder, Nick"],
+    "url": "https://arxiv.org/abs/2005.14165",
+    "published": "2020"
+  },
+  {
+    "id": "2310.06825",
+    "title": "Mistral 7B",
+    "abstract": "We introduce Mistral 7B, a 7-billion-parameter language model that outperforms Llama 2 13B on all evaluated benchmarks. Mistral 7B uses grouped-query attention for faster inference and sliding window attention to handle sequences of arbitrary length. We also release Mistral 7B-Instruct, which outperforms Llama 2 13B-chat on human evaluations.",
+    "authors": ["Jiang, Albert Q.", "Sablayrolles, Alexandre", "Mensch, Arthur"],
+    "url": "https://arxiv.org/abs/2310.06825",
+    "published": "2023"
+  },
+  {
+    "id": "2201.11903",
+    "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+    "abstract": "We explore how chain-of-thought prompting improves the ability of large language models to perform complex reasoning. By providing a few chain-of-thought demonstrations as exemplars in prompting, we show that language models can generate a series of intermediate reasoning steps that significantly improves performance on arithmetic, commonsense, and symbolic reasoning tasks.",
+    "authors": ["Wei, Jason", "Wang, Xuezhi", "Schuurmans, Dale"],
+    "url": "https://arxiv.org/abs/2201.11903",
+    "published": "2022"
+  },
+  {
+    "id": "2203.02155",
+    "title": "Training language models to follow instructions with human feedback",
+    "abstract": "Starting from GPT-3, we fine-tune language models to follow instructions using reinforcement learning from human feedback. Our models, InstructGPT, are better at following user intent than GPT-3 despite being much smaller. Human evaluators prefer InstructGPT outputs over GPT-3 outputs even though InstructGPT has 100x fewer parameters. This work raises important questions about alignment between model outputs and human intent.",
+    "authors": ["Ouyang, Long", "Wu, Jeff", "Jiang, Xu"],
+    "url": "https://arxiv.org/abs/2203.02155",
+    "published": "2022"
+  },
+  {
+    "id": "2108.07258",
+    "title": "Evaluating Large Language Models Trained on Code",
+    "abstract": "We introduce Codex, a GPT language model fine-tuned on publicly available code from GitHub. Codex solves 28.8% of the HumanEval problems. We find that repeated sampling from the model is a surprisingly effective strategy for producing working solutions. We discuss the potential broader impacts of deploying powerful code generation technologies.",
+    "authors": ["Chen, Mark", "Tworek, Jerry", "Jun, Heewoo"],
+    "url": "https://arxiv.org/abs/2108.07258",
+    "published": "2021"
+  },
+  {
+    "id": "2302.07842",
+    "title": "Augmented Language Models: a Survey",
+    "abstract": "We survey works that augment language models with tools, memory, and reasoning capabilities. Augmented language models can use external tools like search engines and calculators, query memory stores, and decompose tasks into reasoning steps. We argue that augmentation is a promising direction for overcoming fundamental limitations of language models such as hallucination and lack of up-to-date knowledge.",
+    "authors": ["Mialon, Grégoire", "Dessì, Roberto", "Lomeli, Maria"],
+    "url": "https://arxiv.org/abs/2302.07842",
+    "published": "2023"
+  },
+  {
+    "id": "2304.15004",
+    "title": "Are Emergent Abilities of Large Language Models a Mirage?",
+    "abstract": "Recent work claims that large language models display emergent abilities that appear suddenly at certain scale thresholds. We present an alternative explanation: emergent abilities are a product of researchers choice of metrics. When we use metrics that scale smoothly, the emergent abilities disappear. This challenges the narrative that LLMs undergo phase transitions and has implications for how we evaluate and predict model capabilities.",
+    "authors": ["Schaeffer, Rylan", "Miranda, Brando", "Koyejo, Sanmi"],
+    "url": "https://arxiv.org/abs/2304.15004",
+    "published": "2023"
+  }
+]
